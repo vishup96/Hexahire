@@ -1,0 +1,416 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body{font-family: 'Urbanist' !important;}
+p{color: #777777;}
+html {scroll-behavior: smooth;}
+a{text-decoration: none !important;}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header {
+	transition: all 0.5s;
+	z-index: 997;
+	padding: 8px 50px;
+}
+.header-transparent{
+    background: transparent;
+}
+.header-scrolled {
+	background: #fff;
+    box-shadow: 0px 10px 15px -1px rgba(0, 0, 0, 0.1);
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+	color: #F55531;
+}
+
+.nav-menu{
+    list-style: none;
+    margin-bottom: 0;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.nav-item{
+    text-decoration: none;
+    color: black;
+}
+
+.join-btn{
+    color: white;
+    background: black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: 0;
+}
+.join-btn:hover{
+    color: #F55531;
+}
+
+.navbar-join-us{
+    color: white;
+    background: black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: 0;
+}
+.navbar-join-us:hover{
+    color: #F55531;
+}
+/*--------------------------------------------------------------
+# Banner section
+--------------------------------------------------------------*/
+
+.eclips{
+    height: 700px;
+    width: 700px;
+    background-color: #F55531;
+    border-radius: 50%;
+    position: absolute;
+    left: 70%;
+    top: -100px;
+    z-index: 1;
+}
+
+.banner-heading h1{
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.banner-heading p{
+    font-size: 18px;
+}
+.banner-section{
+    position: relative;
+	padding-top: 150px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    height: auto;
+}
+.banner-btn {
+	position: relative;
+	transition: 1s;
+	left: 60%;
+    animation: mymove 1s;
+    animation-iteration-count: infinite;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: #F55531;
+}
+.down-arrow {
+	position: absolute;
+	left: 30%;
+	bottom: 20%;
+	height: 40px;
+	color: white;
+}
+@keyframes mymove {
+    from {top: 5px;}
+    to {top: 15px;}
+  }
+.form-section {
+    background-color: white;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    z-index: 1;
+    padding: 30px;
+    width: 80%;
+    margin-left: auto;
+}
+.form-control, .form-select {
+	height: 50px;
+    background-color: #F2F3F6 !important;
+    border: 0 !important;
+    margin-bottom: 18px;
+}
+ 
+.form-heading{text-align: center;}
+.form-heading h3{
+    font-weight: 600;
+    margin: 0;
+    font-size: 30px;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+  }
+.form-check-input[type="checkbox"] {
+	border: 1px solid #F55531;
+}  
+.form-check-input:checked {
+	background-color: #F55531 !important;
+    border: 0 ;
+}
+.form-check {
+	margin: 10px 0 20px !important;
+}
+.form-check-label {
+	font-size: 14px;
+}
+
+.submit-btn{
+    border-radius: 5px;
+    background-color: #195276;
+    color: white;
+    border: 0;
+    padding: 12px 10px;
+    transition: 0.2s;
+    font-weight: 500;  
+}
+.submit-btn:hover{
+    background-color: #F55531;
+    color: #fff;
+}
+.user-login{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom:0;
+}
+.user-login a{
+    text-decoration: none;
+    color: #F55531;
+}
+
+/*--------------------------------------------------------------
+# How it works
+--------------------------------------------------------------*/
+
+.how-works{
+    padding: 50px 0 80px;
+}
+.section-heading{
+    text-align: center;
+    padding: 0 0 30px;
+}
+.section-heading h2{
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.section-heading p{
+    font-size: 18px;
+}
+.work-steps{
+    margin: 15px 0;
+}
+.icons{
+    text-align: center;
+}
+.icons p{
+    color: black;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.testimonial{
+    padding: 60px 0 80px;
+    background-color: #F2F3F6;
+}
+.slider-header h2{
+    font-weight: 600;
+    color: black;
+    font-size: 55px;
+    margin-bottom: 0;
+}
+
+.cards{
+     padding: 35px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;  
+     margin: 70px 10px 30px; 
+     background-color: #FFFFFF;
+     height: 320px;
+}
+.card-txt{
+    padding-top: 30px;
+}
+.card-txt h5{
+    font-size: 20px;
+    color: #F55531;
+    padding-top: 40px;
+    margin-bottom: 0;
+    
+}
+.card-txt p{
+    font-size: 20px;
+    line-height: 1.3;
+}
+.testimonial_name{
+    position: absolute;
+    bottom: 40px;
+}
+.card-txt .designation{
+    font-size: 14px;
+}
+.quote-border{
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+	background: #F55531;
+	color: white;
+	font-weight: 900;
+	font-size: 90px;
+	position: absolute;
+	top: 30px;
+}
+.quote {
+	position: absolute;
+	left: 30%;
+	top: -10px;
+	font-style: italic;
+}
+.left-arrow{
+    position: relative;
+    left: 34%; 
+}
+.right-arrow{
+    position: relative;
+    left: 36%;
+}
+
+/*--------------------------------------------------------------
+# FAQ
+--------------------------------------------------------------*/
+
+.faq{
+    padding: 80px 0;
+}
+.section-heading2 h2{
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.accordion-item {
+	background-color: #FCDED4 !important;
+    border: 0 !important;
+	margin: 20px 0;
+    border-radius: 5px !important;
+}
+.accordion-button {
+	background-color: #FCDED4 !important;
+    font-size: 25px !important;
+    padding: 20px !important;
+    font-weight: 500 !important;
+    border-radius: 5px !important;
+}
+.accordion-body {
+	padding: 20px !important;
+}
+.accordion-button:not(.collapsed)::after {
+	background-image: url("../Images/plus.svg") !important;
+    rotate: 45deg ;
+}
+.accordion-button::after {
+	background-image: url("../Images/plus.svg") !important;
+}
+.accordion-button:not(.collapsed) {
+	color: black !important;
+    font-size: 30px;
+}
+.accordion-button:focus {
+	box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+	box-shadow: none !important;
+    padding-bottom: 0 !important;
+}
+.faq-block{padding: 10px;}
+
+/*--------------------------------------------------------------
+# Scan & Download App
+--------------------------------------------------------------*/
+
+.download{
+    padding: 90px 0 0;
+    background-color: #1A1A1A;
+}
+.section-heading3{
+    height: 300px;
+}
+.section-heading3 h2{
+    color: white;
+    font-size: 55px;
+}
+.section-heading3 p {
+	color: white;
+	font-size: 16px;
+	padding-bottom: 25px;
+}
+
+.qr-code{
+    width: 50px;
+    margin-right: 5px;
+}
+.apple, .play-store{
+    width: 30%;
+    margin-right: 5px;
+}
+
+.app-img {
+	width: 56%;
+	margin: 0 auto;
+	display: flex;
+}
+
+/*--------------------------------------------------------------
+# footer
+--------------------------------------------------------------*/
+
+footer{
+    padding: 50px 0;
+   background-color: #000000;  
+}
+.footer-top-row{
+    padding: 50px 0 0;
+}
+.footer-heading h3{
+    color: white;
+    font-size: 20px;
+}  
+ .links {
+	display: block;
+	font-size: 15px;
+	color: #777777;
+	margin-bottom: 5px;
+    line-height: 1.3;
+}
+.links:hover{
+    color: #F55531;
+}
+footer a {
+	text-decoration: none;
+	transition: .2s;
+}
+.footer-bottom-row{
+    padding: 40px 0 0;
+}
+.social-icon{
+    padding: 10px;
+    font-size: 18px;
+}
+.policy-txt{
+    color: #F55531;
+}
+.policy-txt:hover{
+    color: white;
+}
+.contact{
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact:hover{color: #F55531;}
+.copyright{
+    font-size: 16px;
+}
+.copyright p{
+    margin-bottom: 0;
+}

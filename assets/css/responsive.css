@@ -1,0 +1,332 @@
+@media (max-width: 2560px){
+
+    /* ==================== General =================== */
+    .navbar-toggler{display: none;}
+    .navbar-join-us{display: none;}
+}
+
+@media (max-width: 1600px) {
+
+    /* ==================== General =================== */
+    .section-heading h2 {font-size: 50px;}
+
+    /* ================== Banner part ================= */
+    .banner-section {padding-top: 115px;}
+    .banner-section {height: auto;}
+
+    /* =================== Form ====================== */
+    .form-control, .form-select {height: 45px;}
+
+    /* =============================== How it works ======================================  */
+    .icons p {font-size: 18px; }
+    
+    /* ==================== Testimonials section ============== */
+    .slider-header h2 { font-size: 50px;}
+    .cards {height: 290px;}
+
+    /* ===================== FAQ section ========================= */
+    .faq {padding: 70px 0;}
+
+    /* ====================== Download app section ================== */
+    .section-heading3 h2 {font-size: 50px;}
+    .app-img {width: 50%;}
+}
+
+
+@media (max-width: 1440px) {
+
+     /* ==================== General =================== */
+     .section-heading h2 {font-size: 45px;}
+
+     /* ================== Banner part ================= */
+     .banner-heading h1 {font-size: 50px;}  
+     .banner-section {height: auto; padding-bottom: 50px;}
+     .section-heading-img {width: 75%;}
+     .banner-btn { left: 50%;}
+
+     /* =================== Form ====================== */
+     .form-section {margin-left: 0;}
+
+    /* ==================== Testimonials section ============== */
+    .cards {height: 280px;}
+    .slider-header h2 {font-size: 45px;}
+
+     /* ===================== FAQ section ========================= */
+     .accordion-button {font-size: 22px !important; }
+
+    /* ====================== Download app section ================== */
+    .download {padding: 80px 0 0;}
+    .section-heading3 h2 {font-size: 45px;}
+
+    /* ========================= Footer ============================ */
+    footer {padding: 50px 0 20px;}
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+
+    /* ========================== Banner part =================================== */
+    .banner-btn {height: 65px; width: 65px;}
+    .section-heading-img {width: 80%;}
+
+     /* =============================== How it works ======================================  */
+     .how-works {padding: 50px 0 60px;}
+
+     /* ========================== Testimonial ====================================== */
+     .testimonial {padding: 35px 0 60px;}
+     .quote-border {width: 70px; height: 70px;}
+     .quote {left: 25%; top: -12px;}
+     .cards {height: 265px; padding: 25px;}
+     .card-txt h5 {font-size: 18px;}
+     .card-txt p {font-size: 18px;}
+
+    /* =============================== FAQ =================================== */
+    .faq {padding: 60px 0;}
+
+    /* ====================== Download app section ================== */
+    .section-heading3 h2 {font-size: 40px;}
+    .qr-code {width: 45px;}
+    .apple, .play-store {width: 28%;}
+
+    /* ========================== Footer ==========================  */
+    .footer-heading h3 {font-size: 18px;}
+    .footer-heading p{font-size: 15px;}
+    .contact {font-size: 14px;}
+}
+
+@media (max-width: 1199.98px) {
+
+    /* =========================== Header part ======================= */
+    .navbar-toggler{display: block;}
+    .navbar-join-us{display: block;}
+    nav .collapse-content.active {transform: translateX(0);}
+    nav .collapse-content  {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        padding: 20px;
+        z-index: 11;
+        transform: translateX(-100%);
+        transition: .4s;
+    }
+    .nav-menu {
+        flex-direction: column;
+        margin-top: 30px;
+        padding-right: 40px;
+    }
+    nav .btn {font-size: 14px;}
+    .navbar-toggler i { font-size: 25px;}
+    nav .close_nav {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 25px;
+        cursor: pointer;
+        transition: .2s;
+    }
+    nav .collapse-content .active {transform: translateX(0);}
+    nav .nav-link {margin: 5px 0;}
+    #header {padding: 8px 10px;}
+
+    /* ========================== Banner part =================================== */
+    .banner-section {padding-top: 100px;}
+    .banner-heading h1 {font-size: 45px;}
+    .banner-btn {height: 60px; width: 60px;}
+    .down-arrow {height: 35px;}
+    .banner-section {height:auto;}
+
+    /* =================== Form ====================== */
+    .form-section{width: 85%;}
+    .form-control, .form-select {height: 40px; margin-bottom: 15px}
+    .form-check {margin: 0px 0 15px !important;}
+    .submit-btn {padding: 8px 10px;}
+
+    /* =============================== How it works ======================================  */
+    .how-works {padding: 40px 0 60px;}
+    .work-steps img{width: 80%;}
+
+    /* ==================== Testimonials section ============== */
+    .testimonial {padding: 40px 0 60px;}
+    .cards {padding: 25px;}
+    .card-txt p {font-size: 18px;}
+
+    /* =============================== FAQ =================================== */
+    .faq {padding: 60px 0;}
+
+    /* ====================== Download app section ================== */
+    .download {padding: 70px 0 0;}
+
+    /* ========================== Footer ==========================  */
+    footer {padding: 30px 0 10px;}
+
+}
+
+@media (max-width: 991.98px) {
+
+    /* ==================== General =================== */
+    .section-heading h2 {font-size: 40px;}
+
+    /* ========================== Banner part =================================== */
+    .banner-section {height: auto;}
+    .section-heading-img {display: none;}
+    .banner-heading h1 {padding-top: 0; margin-bottom: 0; text-align: center;}
+    .banner-heading p {text-align: center; padding-bottom: 40px; margin-bottom: 0;}
+    .eclips {
+        height: 500px;
+        width: 500px;
+        left: 75%;
+        top: 80px;
+    }
+    .banner-btn {display: none;}
+
+     /* =================== Form ====================== */
+    .form-section {width: 100%;}
+
+    /* ========================= How it works ==================================  */
+    .how-works {padding: 0px 0 60px;}
+    .work-steps img { width: auto;}
+
+    /* ========================== Testimonial ====================================== */
+    .slider-header h2 {font-size: 40px;}
+    .testimonial {padding: 30px 0 50px;}
+    .card-txt p {font-size: 16px;}
+
+    /* =============================== FAQ =================================== */
+    .faq {padding: 50px 0;}
+    .accordion-button {font-size: 20px !important;}
+
+    /* ====================== Download app section ================== */
+    .section-heading3 h2 {font-size: 40px;}
+    .section-heading3 p {font-size: 13px; padding-bottom: 0;}
+    .apple, .play-store {width: 35%;}
+    .app-img {width: 100%;}
+
+    /* ========================== Footer ==========================  */
+    .copyright {font-size: 13px;}
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ========================== Banner part =================================== */
+    .banner-section {height: auto; padding-bottom: 50px;}
+}
+
+@media (max-width: 767.98px) {
+
+    /* ============================ Header part =================== */
+    .navbar-brand img{width: 70%;}
+
+    /* ========================== Banner part =================================== */
+    .banner-section {height: auto; padding-bottom: 50px;}
+    .banner-heading h1 {font-size: 35px;}
+    .banner-heading p {font-size: 16px;}
+
+    /* =================== Form ====================== */
+    .form-heading h3 {font-size: 25px;}
+
+    /* ========================= How it works ==================================  */
+    .section-heading h2 {font-size: 35px; margin-bottom: 0;}
+    .section-heading p {font-size: 16px; margin-bottom: 15px;}
+    .work-steps img {width: 50%;}
+    .icons p {font-size: 16px;}
+    .how-works {padding: 0 0 40px;}
+
+    /* ==================== Testimonials section ============== */
+    .slider-header h2 {font-size: 35px;}
+    .testimonial {padding: 30px 0 40px;}
+    .cards {height: 200px; margin: 70px 80px 30px;}
+    .left-arrow {left: 38%;}
+    .right-arrow {left: 43%;}
+    .quote-border {top: 25px;}
+
+    /* =============================== FAQ =================================== */
+    .faq {padding: 30px 0;}
+    .section-heading {padding: 0;}
+
+    /* ====================== Download app section ================== */
+    .section-heading3 {height: 230px;}
+    .section-heading3 h2 {font-size: 35px;}
+    .section-heading3 p {font-size: 12px;}
+    .qr-code {width: 35px;}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+ 
+     /* ========================== Banner part =================================== */
+    .banner-section {height: auto; padding-bottom: 50px;}
+}
+
+@media (max-width: 575.98px) {
+
+    /* ========================== Banner part =================================== */
+    .banner-section {height: auto;}
+    .section-heading h2 {font-size: 30px; margin-bottom: 10px;}
+    .section-heading p {font-size: 15px; margin-bottom: 10px;}
+    .work-steps img {width: auto;}
+    .banner-heading h1 { font-size: 30px;}
+
+    /* ==================== Testimonials section ============== */
+    .slider-header h2 {font-size: 30px;}
+    .cards {margin: 70px 25px 30px;}
+    .block-h2{display: none;}
+
+    /* =============================== FAQ =================================== */
+    .accordion-item { margin: 15px 0;}
+    .accordion-button {font-size: 18px !important;}
+    .accordion-button {padding: 15px !important;}
+
+    /* ====================== Download app section ================== */
+    .section-heading3 h2 {font-size: 30px;}
+    .download {padding: 50px 0 0;}
+    .app-img {width: 50%;}
+    .section-heading3 { text-align: center;}
+
+    /* ========================== Footer ==========================  */
+    .footer-bottom-row {padding: 10px 0 0;}
+}
+
+@media (max-width: 400px){
+
+    /* =========================== Header ===========================  */
+    .navbar-join-us{display: none;}
+
+    /* ========================== Banner part =================================== */
+    .banner-section {height: auto; padding-top: 80px;}
+    .banner-heading h1 {font-size: 25px;}
+    .banner-heading p {font-size: 13px; padding-bottom: 30px;}
+
+    /* =================== Form ====================== */
+    .form-heading h3 {font-size: 20px;}
+    .form-heading p{font-size: 13px;}
+    .form-check-label {font-size: 12px;}
+    .user-login {font-size: 12px;}
+   
+    /* ========================= How it works ==================================  */
+    .section-heading h2 {font-size: 25px;}
+    .section-heading p {font-size: 13px;}
+    .icons p {font-size: 13px;}
+
+    /* ==================== Testimonials section ============== */
+    .slider-header h2 {font-size: 25px;}
+    .card-txt {padding-top: 15px;}
+    .card-txt h5 {font-size: 16px;}
+    .card-txt .designation {font-size: 12px;}
+
+
+     /* =============================== FAQ =================================== */
+    .accordion-button {font-size: 16px !important;}
+
+    /* ====================== Download app section ================== */
+    .section-heading3 h2 {font-size: 25px;}
+
+    /* ========================== Footer ==========================  */
+    .footer-heading h3 {font-size: 16px;}
+    .footer-heading p{font-size: 12px;}
+    .footer-heading .list{line-height: 1;}
+    .links {font-size: 13px;}
+    .copyright p {font-size: 11px;}
+    .social-icon {padding: 5px;}
+}
